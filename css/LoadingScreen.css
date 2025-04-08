@@ -1,0 +1,74 @@
+
+:root {
+    --dark-blue: #213fe1;
+    --light-blue: #9ecefd;
+    --dark-pink: #fe8ffe;
+    --light-pink: #ffe1fd;
+    --white: #fefcf7;
+    --dark-theme: #151515;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-theme);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/BackgroundLogin.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.login {
+    position: relative;
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.pfp {
+    width: 15rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.data-login {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.password {
+    width: 12rem;
+    padding: 0.5rem;
+    border: 6px solid var(--dark-blue);
+    border-radius: 1rem;
+    background-color: var(--light-pink);
+    color: var(--text-color);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.password:focus {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px var(--dark-blue);
+    outline: none;
+}
+
+input::placeholder {
+    color: var(--dark-blue);
+    opacity: 0.3;
+    font-style: italic;
+}
