@@ -1,7 +1,10 @@
+//PAGE TRANSITIONS
+
 document.addEventListener('DOMContentLoaded', function(event) {
     document.querySelector('body').style.opacity = 1
 })
 
+//HIDE
 
 function showWorkTab() {
     const workTab = document.querySelector('.work-tab');
@@ -50,6 +53,7 @@ function hideLinksTab() {
 }
 
 
+
 function showSkillsTab() {
     const workTab = document.querySelector('.skills-tab');
     workTab.style.display = 'block';
@@ -59,6 +63,7 @@ function hideSkillsTab() {
     const workTab = document.querySelector('.skills-tab');
     workTab.style.display = 'none';
 }
+
 
 
 function showEmailTab() {
@@ -83,6 +88,8 @@ function hideProjectsTab() {
     workTab.style.display = 'none';
 }
 
+
+
 function showGitHubTab() {
     const workTab = document.querySelector('.github-tab');
     workTab.style.display = 'block';
@@ -92,6 +99,8 @@ function hideGitHubTab() {
     const workTab = document.querySelector('.github-tab');
     workTab.style.display = 'none';
 }
+
+
 
 function showBehanceTab() {
     const workTab = document.querySelector('.behance-tab');
@@ -105,7 +114,6 @@ function hideBehanceTab() {
 
 
 
-
 function showYoutube() {
     const workTab = document.querySelector('.youtube-tab');
     workTab.style.display = 'block';
@@ -115,6 +123,8 @@ function hideYoutube() {
     const workTab = document.querySelector('.youtube-tab');
     workTab.style.display = 'none';
 }
+
+
 
 function showNote() {
     const workTab = document.querySelector('.note-tab');
@@ -127,6 +137,7 @@ function hideNote() {
 }
 
 
+
 function showThreeD() {
     const workTab = document.querySelector('.threed-tab');
     workTab.style.display = 'block';
@@ -136,6 +147,8 @@ function hideThreeD() {
     const workTab = document.querySelector('.threed-tab');
     workTab.style.display = 'none';
 }
+
+
 
 function showNote2() {
     const workTab = document.querySelector('.note-tab2');
@@ -147,6 +160,8 @@ function hideNote2() {
     workTab.style.display = 'none';
 }
 
+
+
 function showJR() {
     const workTab = document.querySelector('.jr-tab');
     workTab.style.display = 'block';
@@ -156,6 +171,8 @@ function hideJR() {
     const workTab = document.querySelector('.jr-tab');
     workTab.style.display = 'none';
 }
+
+
 
 function showNote3() {
     const workTab = document.querySelector('.note-tab3');
@@ -167,6 +184,8 @@ function hideNote3() {
     workTab.style.display = 'none';
 }
 
+
+
 function showGames() {
     const workTab = document.querySelector('.games-tab');
     workTab.style.display = 'block';
@@ -177,6 +196,8 @@ function hideGames() {
     workTab.style.display = 'none';
 }
 
+
+
 function showNote4() {
     const workTab = document.querySelector('.note-tab4');
     workTab.style.display = 'block';
@@ -186,6 +207,9 @@ function hideNote4() {
     const workTab = document.querySelector('.note-tab4');
     workTab.style.display = 'none';
 }
+
+
+//GITHUB
 
 fetch("https://api.github.com/users/ARitaNevesR/repos")
 .then(response => response.json())
@@ -207,24 +231,43 @@ fetch("https://api.github.com/users/ARitaNevesR/repos")
 .catch(error => console.error("Error fetching GitHub repos:", error));
 
 
+//FORMS
 
-function checkForm() {
-    let form = document.getElementById("contactForm");
+function checkForm1() {
+    let form = document.getElementById("contactForm1");
     if (form.checkValidity()) {
-        const workTab = document.querySelector('.confirmation');
+        const workTab = document.querySelector('.confirmation1');
         workTab.style.display = 'block';
     } else {
         alert("⚠️ Por favor, preencha todos os campos antes de enviar.");
     }
 }
 
-function hideConfirmation() {
-    const workTab = document.querySelector('.confirmation');
+function hideConfirmation1() {
+    const workTab = document.querySelector('.confirmation1');
     workTab.style.display = 'none';
 }
 
+function checkForm2() {
+    let form = document.getElementById("contactForm2");
+    if (form.checkValidity()) {
+        const workTab = document.querySelector('.confirmation2');
+        workTab.style.display = 'block';
+    } else {
+        alert("⚠️ Por favor, preencha todos os campos antes de enviar.");
+    }
+}
+
+function hideConfirmation2() {
+    const workTab = document.querySelector('.confirmation2');
+    workTab.style.display = 'none';
+}
+
+//LANGUAGE
 
 function changePT() {
+    const formPt = document.querySelector('.contact-form1');
+    formPt.style.display = 'flex';
     const ptElements = document.querySelectorAll('.pt');
     ptElements.forEach(el => {
         el.style.display = 'block';
@@ -232,6 +275,8 @@ function changePT() {
 }
 
 function hideENG() {
+    const formEng = document.querySelector('.contact-form2');
+    formEng.style.display = 'none';
     const engElements = document.querySelectorAll('.eng');
     engElements.forEach(el => {
         el.style.display = 'none';
@@ -239,6 +284,8 @@ function hideENG() {
 }
 
 function changeENG() {
+    const formPt = document.querySelector('.contact-form2');
+    formPt.style.display = 'flex';
     const engElements = document.querySelectorAll('.eng');
     engElements.forEach(el => {
         el.style.display = 'block';
@@ -246,6 +293,8 @@ function changeENG() {
 }
 
 function hidePT() {
+    const formPt = document.querySelector('.contact-form1');
+    formPt.style.display = 'none';
     const ptElements = document.querySelectorAll('.pt');
     ptElements.forEach(el => {
         el.style.display = 'none';
