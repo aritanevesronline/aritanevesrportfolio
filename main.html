@@ -226,55 +226,55 @@
                     <div class="skills">
                         <p>Illustrator</p>
                         <div class="skills-bar">
-                            <div class="skills-bar-inside illustrator"><p>Avançado</p></div>
+                            <div class="skills-bar-inside illustrator"><p class="pt">Avançado</p><p class="eng">Advanced</p></div>
                         </div>
                     </div>
                     <div class="skills">
                         <p>Photoshop</p>
                         <div class="skills-bar">
-                            <div class="skills-bar-inside photoshop"><p>Proficiente</p></div>
+                            <div class="skills-bar-inside photoshop"><p class="pt">Proficiente</p><p class="eng">Proficient</p></div>
                         </div>
                     </div>
                     <div class="skills">
                         <p>After Effects</p>
                         <div class="skills-bar">
-                            <div class="skills-bar-inside after"><p>Proficiente</p></div>
+                            <div class="skills-bar-inside after"><p class="pt">Proficiente</p><p class="eng">Proficient</p></div>
                         </div>
                     </div>
                     <div class="skills">
                         <p>Premiere</p>
                         <div class="skills-bar">
-                            <div class="skills-bar-inside premiere"><p>Básico</p></div>
+                            <div class="skills-bar-inside premiere"><p class="pt">Básico</p><p class="eng">Basic</p></div>
                         </div>
                     </div>
                     <div class="skills">
                         <p>inDesign</p>
                         <div class="skills-bar">
-                            <div class="skills-bar-inside inDesign"><p>Proficiente</p></div>
+                            <div class="skills-bar-inside inDesign inDesign"><p class="pt">Proficiente</p><p class="eng">Proficient</p></div>
                         </div>
                     </div>
                     <div class="skills">
                         <p>Figma</p>
                         <div class="skills-bar">
-                            <div class="skills-bar-inside figma"><p>Avançado</p></div>
+                            <div class="skills-bar-inside figma"><p class="pt">Avançado</p><p class="eng">Advanced</p></div>
                         </div>
                     </div>
                     <div class="skills">
                         <p>HTML</p>
                         <div class="skills-bar">
-                            <div class="skills-bar-inside html"><p>Avançado</p></div>
+                            <div class="skills-bar-inside html"><p class="pt">Avançado</p><p class="eng">Advanced</p></div>
                         </div>
                     </div>
                     <div class="skills">
                         <p>CSS</p>
                         <div class="skills-bar">
-                            <div class="skills-bar-inside css"><p>Proficiente</p></div>
+                            <div class="skills-bar-inside css"><p class="pt">Proficiente</p><p class="eng">Proficient</p></div>
                         </div>
                     </div>
                     <div class="skills">
                         <p>JavaScript</p>
                         <div class="skills-bar">
-                            <div class="skills-bar-inside javascript"><p>Básico</p></div>
+                            <div class="skills-bar-inside javascript"><p class="pt">Básico</p><p class="eng">Basic</p></div>
                         </div>
                     </div>
                 </div>
@@ -282,7 +282,7 @@
         </div>
 
         <!-- BEHANCE  -->
-        <div class="behance-tab"W>
+        <div class="behance-tab">
             <div class="tab-navbar">
                 <div class="tab-icon">
                     <img src="/images/icons/Behance.png">
@@ -294,7 +294,7 @@
                     </button>
                 </div>
             </div>
-    
+            
             <div class="tab-content-object">
                 <div class="behance-page">
                     <iframe class="behance-work" src="https://www.behance.net/embed/project/201627871?ilo0=1"  frameborder="0" refererPolicy="strict-origin-when-cross-origin"></iframe>
@@ -330,11 +330,15 @@
 
                     <input type="hidden" name="access_key" value="80415ea5-f02d-45af-8918-c1a415441b44">
 
-                    <input type="text" class="name" name="name" required placeholder="O seu nome...">
-                    <input type="email" class="email" name="email" required placeholder="O seu email...">
-                    <input type="text" class="subject" name="subject" required placeholder="Motivo do contacto">
-                    <textarea class="message" name="message" rows="5" required placeholder="Escreva a sua mensagem..."></textarea>
-                    
+                    <input type="text" class="name pt" name="name" required placeholder="O seu nome...">
+                    <input type="text" class="name eng" name="name" required placeholder="Your name...">
+                    <input type="email" class="email pt" name="email" required placeholder="O seu email...">
+                    <input type="email" class="email eng" name="email" required placeholder="Your email...">
+                    <input type="text" class="subject pt" name="subject" required placeholder="Motivo do contacto">
+                    <input type="text" class="subject eng" name="subject" required placeholder="Subject">
+                    <textarea class="message pt" name="message" rows="5" required placeholder="Escreva a sua mensagem..."></textarea>
+                    <textarea class="message eng" name="message" rows="5" required placeholder="Type your message..."></textarea>
+
                     <button type="button" class="submit-button" onclick="checkForm()">Enviar</button>
             
                     <div class="confirmation">
@@ -690,7 +694,7 @@
             <button class="icon projects" onclick="showProjectsTab()">
                 <img src="/images/icons/Projects.png">
                 <h4 class="pt">Projetos</h4>
-                <h4 class="eng">Projets</h4>
+                <h4 class="eng">Projects</h4>
             </button>
 
         </div>
