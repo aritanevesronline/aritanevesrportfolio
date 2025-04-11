@@ -214,7 +214,7 @@ function hideNote4() {
 fetch("https://api.github.com/users/ARitaNevesR/repos")
 .then(response => response.json())
 .then(data => {
-  let reposHTML = "<h2 style='color: white; font-size: 1.7rem;'>Repositórios</h2><ul>";
+  let reposHTML = "<h2 class='pt' style='color: white; font-size: 1.7rem;'>Repositórios</h2><h2 class='eng' style='color: white; font-size: 1.7rem;'>Repositories</h2><ul>";
   data.forEach(repo => {
     reposHTML += `
       <li>
