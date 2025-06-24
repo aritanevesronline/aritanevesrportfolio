@@ -22,20 +22,20 @@ body {
     --dark-blue: #213fe1;
     --light-blue: #9ecefd;
     --dark-pink: #fe8ffe;
-    --light-pink: #ffe1fd ;
+    --light-pink: #ffe1fd;
     --white: #fefcf7;
     --text-color: #333;
     --grey: #D3D3D3;
     --dark-theme: #151515;
 }
 
-.container{
+.container {
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-image:url('../images/Background.jpg');
-    background-repeat:no-repeat;
+    background-image: url('../images/Background.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
     color: black;
@@ -46,7 +46,7 @@ body {
 
 /* ICONS */
 
-.icons-container{
+.icons-container {
     padding: 1rem 1rem 1rem 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -54,13 +54,13 @@ body {
     height: auto;
 }
 
-.icons-container button{
+.icons-container button {
     background-color: transparent;
     border: none;
 }
 
 .icon {
-    position: relative; 
+    position: relative;
     display: inline-block;
     flex-direction: column;
     width: 7rem;
@@ -69,14 +69,16 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.icon h4{
+.icon h4 {
     color: var(--white);
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;margin: 0.3rem 0 0 0; /* Ensures the text is close to the image */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0.3rem 0 0 0;
+    /* Ensures the text is close to the image */
     font-size: 0.9rem;
 }
 
-.linkedin{
+.linkedin {
     text-decoration: none;
 }
 
@@ -86,7 +88,7 @@ body {
 }
 
 .icon:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
     cursor: pointer;
 }
 
@@ -109,7 +111,24 @@ body {
 }
 
 /* TABS NAVBARS*/
-.work-tab, .resume-tab, .linkedin-tab, .links-tab, .github-tab, .skills-tab, .behance-tab, .email-tab, .projects-tab, .youtube-tab, .foto-tab, .threed-tab, .games-tab, .note-tab, .note-tab2, .note-tab3, .jr-tab, .note-tab4{
+.work-tab,
+.resume-tab,
+.linkedin-tab,
+.links-tab,
+.github-tab,
+.skills-tab,
+.behance-tab,
+.email-tab,
+.projects-tab,
+.youtube-tab,
+.foto-tab,
+.threed-tab,
+.games-tab,
+.note-tab,
+.note-tab2,
+.note-tab3,
+.jr-tab,
+.note-tab4 {
     display: none;
     position: absolute;
     top: 50%;
@@ -122,7 +141,7 @@ body {
     border-radius: 0.5rem;
 }
 
-.tab-navbar{
+.tab-navbar {
     width: 100%;
     height: auto;
     background-color: var(--dark-pink);
@@ -133,30 +152,30 @@ body {
     margin-top: auto;
 }
 
-.tab-icon{
-    display: flex; 
+.tab-icon {
+    display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
     gap: 0.35rem;
 }
 
-.tab-icon h4{
+.tab-icon h4 {
     color: var(--white);
 }
 
-.tab-icon img{
+.tab-icon img {
     width: auto;
     height: 3rem;
-    margin-left: 1rem; 
+    margin-left: 1rem;
 }
 
-.button-exit{
-    display: flex; 
+.button-exit {
+    display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 1rem; 
-    width: 100%; 
+    margin-right: 1rem;
+    width: 100%;
 }
 
 .button-exit button {
@@ -167,23 +186,23 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.button-exit button:hover{
+.button-exit button:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
 
-.tab-content{
+.tab-content {
     padding: 1rem;
     background-color: var(--dark-theme);
     color: var(--white);
 }
 
-.tab-content-resume{
+.tab-content-resume {
     padding: 0;
     height: auto;
 }
 
-.tab-content-resume-object{
+.tab-content-resume-object {
     width: 100%;
     height: auto;
 }
@@ -205,30 +224,30 @@ body {
 }
 
 .windows-button {
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 100%; 
+    width: 100%;
 }
 
 .windows-button img {
     width: auto;
     height: 4rem;
-    margin-left: 2rem; 
+    margin-left: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.windows-button img:hover{
+.windows-button img:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
 
 .language {
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 2rem; 
-    width: 100%; 
+    margin-right: 2rem;
+    width: 100%;
 }
 
 .language button {
@@ -238,7 +257,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.language button:hover{
+.language button:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
@@ -259,7 +278,7 @@ body {
     list-style-type: none;
     padding: 0;
 }
-  
+
 .github-repos-container ul li {
     margin: 0.7rem 0;
     padding: 0.7rem;
@@ -268,33 +287,33 @@ body {
     border-radius: 5px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-  
+
 .github-repos-container ul li:hover {
     background-color: black;
-    transform: scale(1.01); 
+    transform: scale(1.01);
     z-index: 100;
 }
-  
+
 .repo-link {
     display: flex;
     flex-direction: column;
     text-decoration: none;
     color: var(--text-color);
 }
-  
+
 .repo-name {
     font-size: 1rem;
     font-weight: bold;
     color: var(--white);
 }
-  
+
 .repo-description {
     font-size: 0.9rem;
     color: var(--white);
     margin-top: 5px;
 }
 
-.tab-content-github{
+.tab-content-github {
     background-color: var(--dark-theme);
     display: flex;
     flex-direction: row;
@@ -302,7 +321,7 @@ body {
     gap: 1rem;
 }
 
-.data-github{
+.data-github {
     margin: 0.7rem 0;
     display: flex;
     flex-direction: column;
@@ -316,11 +335,11 @@ body {
 
 /* BEHANCE*/
 
-.behance-tab{
+.behance-tab {
     background-color: var(--dark-theme);
 }
 
-.behance-page{
+.behance-page {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -332,30 +351,31 @@ body {
     gap: 1.5rem;
 }
 
-.behance-work{
+.behance-work {
     width: 24rem;
-    height: 20rem;  
+    height: 20rem;
 }
 
 ::-webkit-scrollbar {
-    width: 10px;}
-  
+    width: 10px;
+}
+
 ::-webkit-scrollbar-track {
     background: black;
 }
-  
+
 ::-webkit-scrollbar-thumb {
     background: var(--light-pink);
     border-radius: 5px;
 }
-  
+
 ::-webkit-scrollbar-thumb:hover {
     background: var(--dark-pink);
 }
 
 /* INSTAGRAM */
 
-.tab-content-instagram{
+.tab-content-instagram {
     padding: 2rem 4rem 2rem 4rem;
     background-color: var(--dark-theme);
     color: var(--white);
@@ -365,23 +385,23 @@ body {
     gap: 1rem;
 }
 
-.link-gap{
+.link-gap {
     display: flex;
     gap: 1rem;
 }
 
-.tab-content-instagram a{
+.tab-content-instagram a {
     text-decoration: none;
     color: var(--white);
     font-size: 1.3rem;
 }
 
-.tab-content-instagram i{
+.tab-content-instagram i {
     font-size: 1.7rem;
 }
 
 /*WORK EXPERIENCE*/
-.work-div{
+.work-div {
     padding: 2rem;
     width: auto;
     border-radius: 1rem;
@@ -389,41 +409,44 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.work-div:hover{
+.work-div:hover {
     background-color: black;
     transform: scale(1.02);
     cursor: pointer;
 }
 
-.work-img{
+.work-img {
     width: 100%;
     height: auto;
     border-radius: 1rem;
 }
 
-.work-div h1{
+.work-div h1 {
     color: var(--light-pink);
 }
 
-.work-div p, b, h3{
+.work-div p,
+b,
+h3 {
     color: var(--white);
 }
 
-.work-div li{
+.work-div li {
     color: var(--white);
     padding: 0.4rem;
 }
 
-.work-div h3{
+.work-div h3 {
     font-style: italic;
 }
-.work-div span{
+
+.work-div span {
     font-size: 12px;
     font-style: italic;
     color: var(--light-pink);
 }
 
-.tab-content-work{
+.tab-content-work {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -435,7 +458,7 @@ body {
 }
 
 /* SKILLS */
-.tab-content-skills{
+.tab-content-skills {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -445,18 +468,18 @@ body {
     font-weight: 500;
 }
 
-.tab-content-skills-align{
+.tab-content-skills-align {
     display: flex;
     flex-direction: column;
 }
 
-.skills{
+.skills {
     display: flex;
     gap: 1rem;
     align-items: center;
 }
 
-.skills-bar{
+.skills-bar {
     width: 10rem;
     height: 1rem;
     padding: 0.2rem;
@@ -465,7 +488,7 @@ body {
     margin-left: auto;
 }
 
-.skills-bar-inside{
+.skills-bar-inside {
     height: 100%;
     border-radius: 1rem;
     background-color: var(--dark-pink);
@@ -476,45 +499,45 @@ body {
     font-size: 12px;
 }
 
-.skills-bar-inside.illustrator{
+.skills-bar-inside.illustrator {
     width: 80%;
 }
 
-.skills-bar-inside.photoshop{
+.skills-bar-inside.photoshop {
     width: 65%;
 }
 
-.skills-bar-inside.after{
+.skills-bar-inside.after {
     width: 70%;
 }
 
-.skills-bar-inside.premiere{
+.skills-bar-inside.premiere {
     width: 45%;
 }
 
-.skills-bar-inside.inDesign{
+.skills-bar-inside.inDesign {
     width: 65%;
 }
 
-.skills-bar-inside.figma{
+.skills-bar-inside.figma {
     width: 80%;
 }
 
-.skills-bar-inside.html{
+.skills-bar-inside.html {
     width: 85%;
 }
 
-.skills-bar-inside.css{
+.skills-bar-inside.css {
     width: 65%;
 }
 
-.skills-bar-inside.javascript{
+.skills-bar-inside.javascript {
     width: 30%;
 }
 
 /* RESUME */
 
-.tab-content-resume{
+.tab-content-resume {
     background-color: var(--dark-theme);
     padding: 1rem 1rem 2rem 2rem;
     height: auto;
@@ -526,22 +549,22 @@ body {
     align-items: flex-start;
 }
 
-.tab-content-resume p{
+.tab-content-resume p {
     font-size: 17px;
 }
 
-.tab-content-resume a{
+.tab-content-resume a {
     text-decoration: none;
     color: var(--dark-theme);
     font-weight: 600;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.tab-content-resume a:hover{
+.tab-content-resume a:hover {
     transform: scale(1.01);
 }
 
-.a-button{
+.a-button {
     display: flex;
     height: auto;
     width: 5.5rem;
@@ -620,7 +643,7 @@ body {
     background-color: var(--light-pink);
 }
 
-.confirmation1{
+.confirmation1 {
     display: none;
     position: absolute;
     padding: 0.2rem 2rem 1rem 2rem;
@@ -635,11 +658,11 @@ body {
     border-radius: 0.5rem;
 }
 
-.cancel-button1{
+.cancel-button1 {
     background-color: var(--dark-pink);
 }
 
-.conf-buttons1{
+.conf-buttons1 {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -701,7 +724,7 @@ body {
     background-color: var(--light-pink);
 }
 
-.confirmation2{
+.confirmation2 {
     display: none;
     position: absolute;
     padding: 0.2rem 2rem 1rem 2rem;
@@ -716,18 +739,18 @@ body {
     border-radius: 0.5rem;
 }
 
-.cancel-button2{
+.cancel-button2 {
     background-color: var(--dark-pink);
 }
 
-.conf-buttons2{
+.conf-buttons2 {
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
 
 /*PROJECT EXPERIENCE*/
-.project-div{
+.project-div {
     position: relative;
     background-color: transparent;
     display: flex;
@@ -739,7 +762,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.tab-content-projects button{
+.tab-content-projects button {
     border: none;
     background-color: transparent;
     font-family: 'Montserrat', sans-serif;
@@ -747,7 +770,7 @@ body {
     font-size: 14px;
 }
 
-.project-div img{
+.project-div img {
     margin: 0;
     width: 8rem;
     height: auto;
@@ -755,7 +778,7 @@ body {
 }
 
 .project-div:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
     cursor: pointer;
 }
 
@@ -777,12 +800,12 @@ body {
     opacity: 0.5;
 }
 
-.project-div h4{
+.project-div h4 {
     color: white;
     font-weight: 500;
 }
 
-.tab-content-projects{
+.tab-content-projects {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -795,7 +818,7 @@ body {
 
 /* NOTES */
 
-.tab-content-note{
+.tab-content-note {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -806,14 +829,14 @@ body {
     background-color: var(--dark-theme);
 }
 
-.tab-content-note p{
+.tab-content-note p {
     color: var(--white);
 }
 
 /* 3D */
 
 .modal {
-    display: none; 
+    display: none;
     position: fixed;
     z-index: 1000;
     padding-top: 3.5rem;
@@ -822,35 +845,46 @@ body {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.9);
-  }
-  
-  .modal-content {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
     margin: auto;
     display: block;
     width: 80%;
     max-width: 700px;
-  }
-  
-  .modal-content, #caption {  
+}
+
+.modal-content,
+#caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
-  }
-  
-  @-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-  }
-  
-  @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-  }
-  
-  .close {
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.close {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -858,49 +892,51 @@ body {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
 
 /* RESPONSIVE */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) and (orientation: portrait) {
-    
-    .work-tab{
+
+    .work-tab {
         top: 45%;
     }
 
-    .tab-content-work{
+    .tab-content-work {
         height: 20rem;
     }
 
-    .work-div h1{
+    .work-div h1 {
         color: var(--light-pink);
         font-size: 22px;
     }
 
-    .work-div p, b, h3{
+    .work-div p,
+    b,
+    h3 {
         color: var(--white);
         font-size: 16px;
     }
 
     .github-repos-container {
-    overflow: visible;
+        overflow: visible;
     }
 
-    .github-tab{
+    .github-tab {
         top: 45%;
         background-color: var(--dark-theme);
     }
 
-    .tab-content-github{
+    .tab-content-github {
         width: 15rem;
         height: 25rem;
         display: flex;
@@ -909,72 +945,79 @@ body {
         overflow-y: auto;
         overflow-x: auto;
     }
-    
+
     .data-github-part {
         height: auto;
         width: 15rem;
     }
 
-    .tab-content-contact{
+    .tab-content-contact {
         width: 12rem;
     }
 
-    .projects-tab, .youtube-tab, .threed-tab, .jr-tab, .games-tab{
+    .projects-tab,
+    .youtube-tab,
+    .threed-tab,
+    .jr-tab,
+    .games-tab {
         top: 45%;
     }
 
-    .tab-content-projects{
+    .tab-content-projects {
         height: 20rem;
     }
 
-    .note-tab, .note-tab2, .note-tab3, .note-tab4{
+    .note-tab,
+    .note-tab2,
+    .note-tab3,
+    .note-tab4 {
         top: 45%;
         width: 15rem;
     }
 
-    .tab-content-note{
+    .tab-content-note {
         height: 20rem;
         padding: 1.1rem;
     }
 
-    .behance-tab{
+    .behance-tab {
         top: 45%;
         height: 30rem;
         overflow: hidden;
     }
 
-    .tab-content-object{
+    .tab-content-object {
         width: 18rem;
     }
 
-    .behance-work{
+    .behance-work {
         width: 15rem;
         height: 10rem;
     }
 
-    .icons-container{
+    .icons-container {
         width: 85%;
         gap: 3rem;
         padding: 3rem 2rem;
         justify-content: center;
     }
-    
+
     .icon {
         width: 15vw;
     }
-    
-    .icon h4{
+
+    .icon h4 {
         font-size: 13px;
     }
-    
+
     .icon:hover::after {
         opacity: 0;
     }
-    
+
     .nav-bar {
         height: 3rem;
     }
-    
+
     .windows-button img {
         height: 3rem;
     }
@@ -982,23 +1025,26 @@ body {
 }
 
 @media only screen and (min-width: 600px) and (orientation: landscape) {
-    
-    .work-tab, .github-tab{
+
+    .work-tab,
+    .github-tab {
         top: 45%;
         width: 30rem;
     }
 
-    .tab-content-work{
+    .tab-content-work {
         height: 7rem;
         gap: 3rem;
     }
 
-    .work-div h1{
+    .work-div h1 {
         color: var(--light-pink);
         font-size: 22px;
     }
 
-    .work-div p, b, h3{
+    .work-div p,
+    b,
+    h3 {
         color: var(--white);
         font-size: 16px;
     }
@@ -1007,12 +1053,12 @@ body {
         overflow: visible;
     }
 
-    .github-tab{
+    .github-tab {
         top: 45%;
         background-color: var(--dark-theme);
     }
 
-    .tab-content-github{
+    .tab-content-github {
         width: 28rem;
         height: 10rem;
         display: flex;
@@ -1021,75 +1067,82 @@ body {
         overflow-y: auto;
         overflow-x: auto;
     }
-    
+
     .data-github-part {
         height: auto;
         width: 28rem;
     }
 
-    .email-tab{
+    .email-tab {
         height: 15rem;
         overflow: hidden;
     }
 
-    .tab-content-contact{
+    .tab-content-contact {
         width: 25rem;
-        height:7rem;
+        height: 7rem;
         overflow-y: auto;
         overflow-x: auto;
         align-items: flex-start;
     }
 
-    .projects-tab, .youtube-tab, .threed-tab, .jr-tab, .games-tab{
+    .projects-tab,
+    .youtube-tab,
+    .threed-tab,
+    .jr-tab,
+    .games-tab {
         top: 45%;
         width: 25rem;
     }
 
-    .tab-content-projects{
+    .tab-content-projects {
         height: 7rem;
     }
 
-    .project-div img{
+    .project-div img {
         width: 6rem;
     }
 
-    .note-tab, .note-tab2, .note-tab3, .note-tab4{
+    .note-tab,
+    .note-tab2,
+    .note-tab3,
+    .note-tab4 {
         top: 45%;
         width: 30rem;
     }
 
-    .tab-content-note{
+    .tab-content-note {
         height: 10rem;
         padding: 1.1rem;
     }
 
-    .behance-tab{
+    .behance-tab {
         top: 45%;
         height: 15rem;
         overflow: hidden;
     }
 
-    .tab-content-object{
+    .tab-content-object {
         width: 30rem;
     }
 
-    .behance-work{
+    .behance-work {
         width: 20rem;
         height: 18rem;
     }
 
-    .icons-container{
+    .icons-container {
         width: 90%;
     }
-    
+
     .icon {
         width: 6rem;
     }
-    
-    .icon h4{
+
+    .icon h4 {
         font-size: 13px;
     }
-    
+
     .icon:hover::after {
         opacity: 0;
     }
@@ -1097,7 +1150,7 @@ body {
     .nav-bar {
         height: 3rem;
     }
-    
+
     .windows-button img {
         height: 3rem;
     }
@@ -1105,21 +1158,23 @@ body {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (orientation: portrait) {
-    .work-tab{
+    .work-tab {
         top: 45%;
         width: 35rem;
     }
 
-    .tab-content-work{
+    .tab-content-work {
         height: 30rem;
     }
 
-    .work-div h1{
+    .work-div h1 {
         color: var(--light-pink);
         font-size: 22px;
     }
 
-    .work-div p, b, h3{
+    .work-div p,
+    b,
+    h3 {
         color: var(--white);
         font-size: 16px;
     }
@@ -1128,11 +1183,11 @@ body {
         overflow: visible;
     }
 
-    .github-tab{
+    .github-tab {
         top: 45%;
     }
 
-    .tab-content-github{
+    .tab-content-github {
         width: 25rem;
         height: 40rem;
         display: flex;
@@ -1141,59 +1196,67 @@ body {
         overflow-y: auto;
         overflow-x: auto;
     }
-    
+
     .data-github-part {
         height: auto;
         width: 25rem;
     }
 
-    .tab-content-contact{
+    .tab-content-contact {
         width: 20rem;
     }
 
-    .projects-tab, .youtube-tab, .threed-tab, .jr-tab, .games-tab{
+    .projects-tab,
+    .youtube-tab,
+    .threed-tab,
+    .jr-tab,
+    .games-tab {
         top: 45%;
         width: 28rem;
     }
 
-    .tab-content-projects{
+    .tab-content-projects {
         height: 25rem;
     }
 }
 
 @media only screen and (min-width: 768px) and (orientation: landscape) {
-    .work-tab, .github-tab{
+
+    .work-tab,
+    .github-tab {
         top: 45%;
         width: 50rem;
     }
 
-    .tab-content-work{
+    .tab-content-work {
         height: 25rem;
         gap: 3rem;
     }
 
-    .icons-container{
+    .icons-container {
         width: 20%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (orientation: portrait) {
-    .work-tab{
+    .work-tab {
         top: 45%;
         width: 45rem;
     }
 
-    .tab-content-work{
+    .tab-content-work {
         height: 40rem;
     }
 
-    .work-div h1{
+    .work-div h1 {
         color: var(--light-pink);
         font-size: 22px;
     }
 
-    .work-div p, b, h3{
+    .work-div p,
+    b,
+    h3 {
         color: var(--white);
         font-size: 16px;
     }
@@ -1202,11 +1265,11 @@ body {
         overflow: visible;
     }
 
-    .github-tab{
+    .github-tab {
         top: 45%;
     }
-    
-    .tab-content-github{
+
+    .tab-content-github {
         width: 25rem;
         height: 40rem;
         display: flex;
@@ -1215,13 +1278,13 @@ body {
         overflow-y: auto;
         overflow-x: auto;
     }
-    
+
     .data-github-part {
         height: auto;
         width: 25rem;
     }
 
-    .icons-container{
+    .icons-container {
         width: 15rem;
         gap: 3rem;
         padding: 2rem;
@@ -1232,43 +1295,43 @@ body {
         width: 6rem;
     }
 
-    .icon img{
+    .icon img {
         height: 8rem;
     }
 }
 
 @media only screen and (min-width: 992px) and (orientation: landscape) {
-    .work-tab{
+    .work-tab {
         top: 45%;
         width: 50rem;
     }
 
-    .tab-content-work{
+    .tab-content-work {
         height: 20rem;
         gap: 3rem;
     }
 
-    .github-tab{
+    .github-tab {
         top: 45%;
         width: 30rem;
     }
-    
-    .tab-content-github{
+
+    .tab-content-github {
         width: 28rem;
         height: 20rem;
     }
-    
+
     .data-github-part {
         height: auto;
         width: 28rem;
     }
 
-    .email-tab{
+    .email-tab {
         height: 32rem;
         overflow: hidden;
     }
 
-    .tab-content-contact{
+    .tab-content-contact {
         width: 25rem;
         height: 30rem;
         overflow-y: auto;
@@ -1276,87 +1339,94 @@ body {
         align-items: flex-start;
     }
 
-    .projects-tab, .youtube-tab, .threed-tab, .jr-tab, .games-tab{
+    .projects-tab,
+    .youtube-tab,
+    .threed-tab,
+    .jr-tab,
+    .games-tab {
         top: 45%;
         width: 25rem;
     }
 
-    .tab-content-projects{
+    .tab-content-projects {
         height: 20rem;
     }
 
-    .project-div img{
+    .project-div img {
         width: 6.5rem;
     }
 
-    .note-tab, .note-tab2, .note-tab3, .note-tab4{
+    .note-tab,
+    .note-tab2,
+    .note-tab3,
+    .note-tab4 {
         top: 45%;
         width: 35rem;
     }
 
-    .tab-content-note{
+    .tab-content-note {
         height: 17rem;
         padding: 1.1rem;
     }
 
-    .tab-content-note{
+    .tab-content-note {
         height: 10rem;
         padding: 1.1rem;
     }
 
-    .behance-tab{
+    .behance-tab {
         top: 45%;
         height: 25rem;
         overflow: hidden;
     }
 
-    .tab-content-object{
+    .tab-content-object {
         width: 40rem;
     }
 
-    .behance-work{
+    .behance-work {
         width: 15rem;
         height: 10rem;
     }
 
-    .icons-container{
+    .icons-container {
         width: 25%;
     }
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) and (orientation: portrait) {
-
-}
+@media only screen and (min-width: 1200px) and (orientation: portrait) {}
 
 @media only screen and (min-width: 1200px) and (orientation: landscape) {
-    .work-tab, .github-tab{
+
+    .work-tab,
+    .github-tab {
         top: 45%;
         width: 60rem;
     }
 
-    .tab-content-work{
+    .tab-content-work {
         height: 30rem;
         gap: 3rem;
     }
 
-    .icons-container{
+    .icons-container {
         width: 15rem;
         gap: 1rem;
     }
 
-    .github-repos-container{
+    .github-repos-container {
         overflow: hidden;
         overflow-y: auto;
         overflow-x: auto;
     }
 
-    .github-tab{
+    .github-tab {
         top: 45%;
     }
-    
-    .tab-content-github{
+
+    .tab-content-github {
         width: 58rem;
         height: 30rem;
         display: flex;
@@ -1365,57 +1435,61 @@ body {
         overflow-y: auto;
         overflow-x: auto;
     }
-    
+
     .data-github-part {
         height: auto;
         width: 25rem;
     }
 
-    .projects-tab, .youtube-tab, .threed-tab, .jr-tab, .games-tab{
+    .projects-tab,
+    .youtube-tab,
+    .threed-tab,
+    .jr-tab,
+    .games-tab {
         top: 45%;
         width: 40rem;
     }
 
-    .tab-content-projects{
+    .tab-content-projects {
         height: 20rem;
     }
 
-    .project-div img{
+    .project-div img {
         width: 8rem;
     }
 
-    .behance-tab{
+    .behance-tab {
         top: 45%;
         height: 35rem;
         overflow: hidden;
     }
 
-    .tab-content-object{
+    .tab-content-object {
         width: 60rem;
     }
 
-    .behance-work{
+    .behance-work {
         width: 25rem;
         height: 15rem;
     }
 }
 
-@media only screen and (min-width: 1400px) and (orientation: portrait) {
-
-}
+@media only screen and (min-width: 1400px) and (orientation: portrait) {}
 
 @media only screen and (min-width: 1500px) and (orientation: landscape) {
-    .work-tab, .github-tab{
+
+    .work-tab,
+    .github-tab {
         top: 45%;
         width: 60rem;
     }
 
-    .tab-content-work{
+    .tab-content-work {
         height: 25rem;
         gap: 3rem;
     }
 
-    .icons-container{
+    .icons-container {
         width: 15rem;
         gap: 1rem;
     }
