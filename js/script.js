@@ -161,6 +161,30 @@ function hideNote2() {
 }
 
 
+function showForum() {
+    const workTab = document.querySelector('.forum-tab');
+    workTab.style.display = 'block';
+}
+
+function hideForum() {
+    const workTab = document.querySelector('.forum-tab');
+    workTab.style.display = 'none';
+}
+
+
+
+function showNote5() {
+    const workTab = document.querySelector('.note-tab5');
+    workTab.style.display = 'block';
+}
+
+function hideNote5() {
+    const workTab = document.querySelector('.note-tab5');
+    workTab.style.display = 'none';
+}
+
+
+
 
 function showJR() {
     const workTab = document.querySelector('.jr-tab');
