@@ -1011,10 +1011,12 @@ h3 {
     }
 
     .icon {
+        width: 12vw;
         width: 15vw;
     }
 
     .icon img {
+        height: 6rem;
         height: 7.5rem;
     }
 
