@@ -128,7 +128,6 @@ body {
 .note-tab2,
 .note-tab3,
 .jr-tab,
-.note-tab4 {
 .note-tab4,
 .note-tab5,
 .forum-tab {
@@ -963,7 +962,6 @@ h3 {
     .youtube-tab,
     .threed-tab,
     .jr-tab,
-    .games-tab {
     .games-tab,
     .forum-tab {
         top: 45%;
@@ -976,7 +974,6 @@ h3 {
     .note-tab,
     .note-tab2,
     .note-tab3,
-    .note-tab4 {
     .note-tab4,
     .note-tab5 {
         top: 45%;
@@ -1011,12 +1008,10 @@ h3 {
     }
 
     .icon {
-        width: 12vw;
         width: 15vw;
     }
 
     .icon img {
-        height: 6rem;
         height: 7.5rem;
     }
 
@@ -1110,7 +1105,6 @@ h3 {
     .youtube-tab,
     .threed-tab,
     .jr-tab,
-    .games-tab {
     .games-tab,
     .forum-tab {
         top: 45%;
@@ -1128,7 +1122,6 @@ h3 {
     .note-tab,
     .note-tab2,
     .note-tab3,
-    .note-tab4 {
     .note-tab4,
     .note-tab5 {
         top: 45%;
@@ -1234,7 +1227,6 @@ h3 {
     .youtube-tab,
     .threed-tab,
     .jr-tab,
-    .games-tab {
     .games-tab,
     .forum-tab {
         top: 45%;
@@ -1369,7 +1361,6 @@ h3 {
     .youtube-tab,
     .threed-tab,
     .jr-tab,
-    .games-tab {
     .games-tab,
     .forum-tab {
         top: 45%;
@@ -1387,7 +1378,6 @@ h3 {
     .note-tab,
     .note-tab2,
     .note-tab3,
-    .note-tab4 {
     .note-tab4,
     .note-tab5 {
         top: 45%;
@@ -1476,7 +1466,6 @@ h3 {
     .youtube-tab,
     .threed-tab,
     .jr-tab,
-    .games-tab {
     .games-tab,
     .forum-tab {
         top: 45%;
