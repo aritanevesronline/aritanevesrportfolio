@@ -128,7 +128,9 @@ body {
 .note-tab2,
 .note-tab3,
 .jr-tab,
-.note-tab4 {
+.note-tab4,
+.note-tab5,
+.forum-tab {
     display: none;
     position: absolute;
     top: 50%;
@@ -960,7 +962,8 @@ h3 {
     .youtube-tab,
     .threed-tab,
     .jr-tab,
-    .games-tab {
+    .games-tab,
+    .forum-tab {
         top: 45%;
     }
 
@@ -971,7 +974,8 @@ h3 {
     .note-tab,
     .note-tab2,
     .note-tab3,
-    .note-tab4 {
+    .note-tab4,
+    .note-tab5 {
         top: 45%;
         width: 15rem;
     }
@@ -1004,11 +1008,11 @@ h3 {
     }
 
     .icon {
-        width: 12vw;
+        width: 15vw;
     }
 
     .icon img {
-        height: 6rem;
+        height: 7.5rem;
     }
 
     .icon h4 {
@@ -1101,7 +1105,8 @@ h3 {
     .youtube-tab,
     .threed-tab,
     .jr-tab,
-    .games-tab {
+    .games-tab,
+    .forum-tab {
         top: 45%;
         width: 25rem;
     }
@@ -1117,7 +1122,8 @@ h3 {
     .note-tab,
     .note-tab2,
     .note-tab3,
-    .note-tab4 {
+    .note-tab4,
+    .note-tab5 {
         top: 45%;
         width: 30rem;
     }
@@ -1221,7 +1227,8 @@ h3 {
     .youtube-tab,
     .threed-tab,
     .jr-tab,
-    .games-tab {
+    .games-tab,
+    .forum-tab {
         top: 45%;
         width: 28rem;
     }
@@ -1354,7 +1361,8 @@ h3 {
     .youtube-tab,
     .threed-tab,
     .jr-tab,
-    .games-tab {
+    .games-tab,
+    .forum-tab {
         top: 45%;
         width: 25rem;
     }
@@ -1370,7 +1378,8 @@ h3 {
     .note-tab,
     .note-tab2,
     .note-tab3,
-    .note-tab4 {
+    .note-tab4,
+    .note-tab5 {
         top: 45%;
         width: 35rem;
     }
@@ -1457,7 +1466,8 @@ h3 {
     .youtube-tab,
     .threed-tab,
     .jr-tab,
-    .games-tab {
+    .games-tab,
+    .forum-tab {
         top: 45%;
         width: 40rem;
     }
