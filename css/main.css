@@ -61,11 +61,12 @@ body {
 
 .icon {
     position: relative;
-    display: inline-block;
+    display: inline-flex;
     flex-direction: column;
     width: 7rem;
     height: auto;
     justify-items: center;
+    align-items: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -83,7 +84,7 @@ body {
 }
 
 .icon img {
-    width: auto;
+    width: 7rem;
     height: 7rem;
 }
 
